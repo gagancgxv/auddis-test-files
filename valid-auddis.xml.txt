@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+  <ProcessingDateTime>2024-01-15T10:30:00Z</ProcessingDateTime>
+  <MessageData>
+	<MessagingAdvice>
+	  <Header>
+		<SubjectFirstAosn>200001</SubjectFirstAosn>
+		<SubjectLastAosn>200001</SubjectLastAosn>
+		<OriginatorName>Bottomline Bank</OriginatorName>
+		<OriginatorProcessingDate>2024-01-15</OriginatorProcessingDate>
+	  </Header>
+	  <OriginatorSortCode>200001</OriginatorSortCode>
+	  <OriginatorAccountNumber>99887766</OriginatorAccountNumber>
+	  <OriginatorName>TEST CHARITY</OriginatorName>
+	  <OriginatorProcessingDate>2024-01-15</OriginatorProcessingDate>
+	  <TransactionCode>0001</TransactionCode>
+	  <Aosn>200001</Aosn>
+	  <MessageDetail>
+		<ReasonCode>0</ReasonCode>
+		<Reference>PAY-2024-001</Reference>
+		<PayerName>John Doe</PayerName>
+		<PayerSortCode>20-00-01</PayerSortCode>
+		<PayerAccountNumber>12345678</PayerAccountNumber>
+		<EffectiveDate>2024-01-15</EffectiveDate>
+	  </MessageDetail>
+	</MessagingAdvice>
+	<MessagingAdvice>
+	  <Header>
+		<SubjectFirstAosn>200001</SubjectFirstAosn>
+		<SubjectLastAosn>200001</SubjectLastAosn>
+	  </Header>
+	  <OriginatorSortCode>200001</OriginatorSortCode>
+	  <OriginatorAccountNumber>99887766</OriginatorAccountNumber>
+	  <OriginatorName>TEST CHARITY</OriginatorName>
+	  <OriginatorProcessingDate>2024-01-15</OriginatorProcessingDate>
+	  <TransactionCode>0001</TransactionCode>
+	  <Aosn>200001</Aosn>
+	  <MessageDetail>
+		<ReasonCode>0</ReasonCode>
+		<Reference>PAY-2024-002</Reference>
+		<PayerName>Jane Smith</PayerName>
+		<PayerSortCode>20-00-02</PayerSortCode>
+		<PayerAccountNumber>87654321</PayerAccountNumber>
+		<EffectiveDate>2024-01-15</EffectiveDate>
+	  </MessageDetail>
+	</MessagingAdvice>
+	<MessagingAdvice>
+	  <Header>
+		<SubjectFirstAosn>200001</SubjectFirstAosn>
+		<SubjectLastAosn>200001</SubjectLastAosn>
+	  </Header>
+	  <OriginatorSortCode>200001</OriginatorSortCode>
+	  <OriginatorAccountNumber>99887766</OriginatorAccountNumber>
+	  <OriginatorName>TEST CHARITY</OriginatorName>
+	  <OriginatorProcessingDate>2024-01-15</OriginatorProcessingDate>
+	  <TransactionCode>0001</TransactionCode>
+	  <Aosn>200001</Aosn>
+	  <MessageDetail>
+		<ReasonCode>C</ReasonCode>
+		<Reference>PAY-2024-003</Reference>
+		<PayerName>Bob Wilson</PayerName>
+		<PayerSortCode>20-00-03</PayerSortCode>
+		<PayerAccountNumber>11223344</PayerAccountNumber>
+		<PayerNewSortCode>30-00-01</PayerNewSortCode>
+		<PayerNewAccountNumber>99887755</PayerNewAccountNumber>
+		<PayerNewName>Bob Wilson-Brown</PayerNewName>
+		<EffectiveDate>2024-01-15</EffectiveDate>
+	  </MessageDetail>
+	</MessagingAdvice>
+  </MessageData>
+</Message>

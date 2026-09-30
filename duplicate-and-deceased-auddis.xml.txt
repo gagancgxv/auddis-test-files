@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+  <ProcessingDateTime>2024-01-15T10:30:00Z</ProcessingDateTime>
+  <MessageData>
+	<MessagingAdvice>
+	  <!-- DUPLICATE #1 -->
+	  <MessageDetail>
+		<ReasonCode>0</ReasonCode>
+		<Reference>PAY-DUP-001</Reference>
+		<PayerName>Alice Johnson</PayerName>
+		<PayerSortCode>20-00-04</PayerSortCode>
+		<PayerAccountNumber>55667788</PayerAccountNumber>
+		<EffectiveDate>2024-01-15</EffectiveDate>
+	  </MessageDetail>
+	</MessagingAdvice>
+	<MessagingAdvice>
+	  <!-- DUPLICATE #2 - Same PaymentReference -->
+	  <MessageDetail>
+		<ReasonCode>0</ReasonCode>
+		<Reference>PAY-DUP-001</Reference>
+		<PayerName>Alice Johnson</PayerName>
+		<PayerSortCode>20-00-04</PayerSortCode>
+		<PayerAccountNumber>55667788</PayerAccountNumber>
+		<EffectiveDate>2024-01-15</EffectiveDate>
+	  </MessageDetail>
+	</MessagingAdvice>
+	<MessagingAdvice>
+	  <!-- REASON CODE 2: DECEASED -->
+	  <MessageDetail>
+		<ReasonCode>2</ReasonCode>
+		<Reference>PAY-DEC-001</Reference>
+		<PayerName>Late Mr. Thompson</PayerName>
+		<PayerSortCode>20-00-05</PayerSortCode>
+		<PayerAccountNumber>44332211</PayerAccountNumber>
+		<EffectiveDate>2024-01-15</EffectiveDate>
+	  </MessageDetail>
+	</MessagingAdvice>
+	<MessagingAdvice>
+	  <!-- REASON CODE 3: ACCOUNT TRANSFERRED -->
+	  <MessageDetail>
+		<ReasonCode>3</ReasonCode>
+		<Reference>PAY-ACC-TXF-001</Reference>
+		<PayerName>Sarah Lee</PayerName>
+		<PayerSortCode>20-00-06</PayerSortCode>
+		<PayerAccountNumber>66554433</PayerAccountNumber>
+		<EffectiveDate>2024-01-15</EffectiveDate>
+	  </MessageDetail>
+	</MessagingAdvice>
+  </MessageData>
+</Message>

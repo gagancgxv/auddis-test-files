@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+  <MessageData>
+	<MessagingAdvice>
+	  <!-- REASON CODE 7: NOT OUR CUSTOMER -->
+	  <MessageDetail>
+		<ReasonCode>7</ReasonCode>
+		<Reference>PAY-NOT-CUST-001</Reference>
+		<PayerName>Unknown Person</PayerName>
+		<PayerSortCode>20-00-07</PayerSortCode>
+		<PayerAccountNumber>77665544</PayerAccountNumber>
+		<EffectiveDate>2024-01-15</EffectiveDate>
+	  </MessageDetail>
+	</MessagingAdvice>
+	<MessagingAdvice>
+	  <!-- REASON CODE B: ACCOUNT CLOSED -->
+	  <MessageDetail>
+		<ReasonCode>B</ReasonCode>
+		<Reference>PAY-ACC-CLOSED-001</Reference>
+		<PayerName>Former Customer</PayerName>
+		<PayerSortCode>20-00-08</PayerSortCode>
+		<PayerAccountNumber>88776655</PayerAccountNumber>
+		<EffectiveDate>2024-01-15</EffectiveDate>
+	  </MessageDetail>
+	</MessagingAdvice>
+	<MessagingAdvice>
+	  <!-- REASON CODE F: CUSTOMER INSTRUCTION TO WITHDRAW -->
+	  <MessageDetail>
+		<ReasonCode>F</ReasonCode>
+		<Reference>PAY-WITHDRAW-001</Reference>
+		<PayerName>Withdrawn Customer</PayerName>
+		<PayerSortCode>20-00-09</PayerSortCode>
+		<PayerAccountNumber>99887766</PayerAccountNumber>
+		<EffectiveDate>2024-01-15</EffectiveDate>
+	  </MessageDetail>
+	</MessagingAdvice>
+  </MessageData>
+</Message>
